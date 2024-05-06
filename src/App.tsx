@@ -19,7 +19,12 @@ function App() {
 				Hello <span>World</span>
 			</Alert> */}
 
-			<Button onClick={() => console.log("Clicked")}>My Button</Button>
+			<Button
+				onClick={() => console.log("Clicked")}
+				color="danger"
+			>
+				My Button
+			</Button>
 		</>
 	);
 }
