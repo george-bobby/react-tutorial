@@ -1,8 +1,9 @@
 import { useState } from "react";
-import Message from "./Message";
+import Message from "./components/Message";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
+
 function App() {
 	let cities = ["mumbai", "kolakta", "chennai", "bengaluru"];
 
@@ -14,22 +15,19 @@ function App() {
 
 	return (
 		<>
-			{/* <Message /> */}
-			{/* <ListGroup
+			<Message />
+			<ListGroup
 				cities={cities}
 				heading="Cities List"
 				onSelectItem={handleSelectItem}
-			/> */}
-			{/* <Alert>
-				Hello <span>World</span>
-			</Alert> */}
+			/>
 
-			{/* <Button
+			<Button
 				onClick={() => console.log("Clicked")}
 				color="danger"
-				>
+			>
 				Button
-			</Button> */}
+			</Button>
 			{alertVisible && (
 				<Alert onClose={() => setAlertVisibility(false)}>
 					Hello Alert
