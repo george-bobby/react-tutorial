@@ -2,6 +2,7 @@ import { useReducer } from "react";
 import { ACTION_TYPES } from "./ActionTypes";
 import { INITIAL_STATE } from "./PostReducer";
 import PostReducer from "./PostReducer";
+import "./Post.css";
 
 const Post = () => {
 	const [state, dispatch] = useReducer(PostReducer, INITIAL_STATE);
