@@ -32,12 +32,12 @@ function App() {
 				onSelectItem={handleSelectItem}
 			/> */}
 
-			{/* <Button
+			<Button
 				onClick={() => console.log("Clicked")}
 				color="danger"
 			>
 				Button
-			</Button> */}
+			</Button>
 			{/* {alertVisible && (
 				<Alert onClose={() => setAlertVisibility(false)}>
 					Hello Alert
