@@ -25,7 +25,7 @@ function App() {
 	//return semantics
 	return (
 		<>
-			{/* <Message /> */}
+			<Message />
 			{/* <ListGroup
 				cities={cities}
 				heading="Cities List"
