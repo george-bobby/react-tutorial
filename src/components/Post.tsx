@@ -9,7 +9,7 @@ const Post = () => {
 
 	const handleFetch = () => {
 		dispatch({ type: ACTION_TYPES.FETCH_START });
-		fetch("")
+		fetch("https://jsonplaceholder.typicode.com/posts/1")
 			.then((res) => {
 				return res.json();
 			})

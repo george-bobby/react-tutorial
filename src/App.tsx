@@ -6,6 +6,7 @@ import ListGroup from "./components/ListGroup";
 import UserGreeting from "./components/UserGreeting";
 import Counter from "./components/Counter";
 import FetchRes from "./components/FetchRes";
+import Post from './components/Post'
 
 function App() {
 	let cities = ["mumbai", "kolakta", "chennai", "bengaluru"];
@@ -25,19 +26,19 @@ function App() {
 	//return semantics
 	return (
 		<>
-			<Message />
+			{/* <Message /> */}
 			{/* <ListGroup
 				cities={cities}
 				heading="Cities List"
 				onSelectItem={handleSelectItem}
 			/> */}
 
-			<Button
+			{/* <Button
 				onClick={() => console.log("Clicked")}
 				color="danger"
 			>
 				Button
-			</Button>
+			</Button> */}
 			{/* {alertVisible && (
 				<Alert onClose={() => setAlertVisibility(false)}>
 					Hello Alert
@@ -59,13 +60,14 @@ function App() {
 				setCount={setCount}
 				setTheme={setTheme}
 			/> */}
-
-			{/* <FetchRes
+{/* 
+			<FetchRes
 				res={res}
 				setRes={setRes}
 				items={items}
 				setItems={setItems}
 			/> */}
+			{/* <Post /> */}
 		</>
 	);
 }
