@@ -26,12 +26,12 @@ function App() {
 	//return semantics
 	return (
 		<>
-			{/* <Message /> */}
-			{/* <ListGroup
+			<Message />
+			<ListGroup
 				cities={cities}
 				heading="Cities List"
 				onSelectItem={handleSelectItem}
-			/> */}
+			/>
 
 			{/* <Button
 				onClick={() => console.log("Clicked")}
