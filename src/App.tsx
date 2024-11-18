@@ -27,19 +27,24 @@ function App() {
 	return (
 		<>
 			<Message />
-			<ListGroup
-				cities={cities}
-				heading="Cities List"
-				onSelectItem={handleSelectItem}
-			/>
 
+			
 			{/* <Button
 				onClick={() => console.log("Clicked")}
 				color="danger"
-			>
+				>
 				Button
 			</Button> */}
-			{/* {alertVisible && (
+				
+				
+			{/* <ListGroup
+				cities={cities}
+				heading="Cities List"
+				onSelectItem={handleSelectItem}
+			/> */}
+
+
+			{alertVisible && (
 				<Alert onClose={() => setAlertVisibility(false)}>
 					Hello Alert
 				</Alert>
@@ -49,24 +54,33 @@ function App() {
 				color="primary"
 			>
 				Button
-			</Button> */}
-			{/* <UserGreeting
+			</Button>
+
+{/* 			
+			<UserGreeting
 				isLoggedIn={true}
 				username="George"
 			/> */}
+
+
+
 			{/* <Counter
 				count={count}
 				theme={theme}
 				setCount={setCount}
 				setTheme={setTheme}
 			/> */}
-{/* 
-			<FetchRes
+
+
+
+			{/* <FetchRes
 				res={res}
 				setRes={setRes}
 				items={items}
 				setItems={setItems}
 			/> */}
+
+			
 			{/* <Post /> */}
 		</>
 	);
