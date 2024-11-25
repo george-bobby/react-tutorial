@@ -26,7 +26,7 @@ function App() {
 	//return semantics
 	return (
 		<>
-			<Message />
+			{/* <Message /> */}
 
 			
 			{/* <Button
@@ -44,7 +44,7 @@ function App() {
 			/> */}
 
 
-			{alertVisible && (
+			{/* {alertVisible && (
 				<Alert onClose={() => setAlertVisibility(false)}>
 					Hello Alert
 				</Alert>
@@ -54,7 +54,7 @@ function App() {
 				color="primary"
 			>
 				Button
-			</Button>
+			</Button> */}
 
 {/* 			
 			<UserGreeting
